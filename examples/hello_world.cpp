@@ -2,7 +2,8 @@
 #include <string>
 
 int main() {
-	string name;
+	// Fixed compilation errors
+	std::string name;
 	std::cin >> name;
-	std::cout << "Hello world from " << name << endl;
+	std::cout << "Hello world from " << name << std::endl;
 }
